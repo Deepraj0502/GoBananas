@@ -21,7 +21,7 @@ export default function Table() {
   useEffect(() => {
     // fetching data from Weather API using fetch
     fetch(
-      "https://api.weatherapi.com/v1/forecast.json?key=329c527d51ce48c9a0c140500240506&q=Mumbai&days=10&aqi=no&alerts=no"
+      "https://api.weatherapi.com/v1/forecast.json?key=329c527d51ce48c9a0c140500240506&q=Mumbai&days=20&aqi=no&alerts=no"
     )
       .then((response) => response.json())
       .then((json) => {
